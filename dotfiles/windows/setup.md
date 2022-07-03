@@ -8,7 +8,6 @@
 
 ## Visual Studio
 - Visual Studio Community
-- Visual Studio Build Tools
 
 ## Python
 
