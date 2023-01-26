@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # Installation script for Arch Linux
 # Loosely follows the https://wiki.archlinux.org/title/Installation_guide
 
