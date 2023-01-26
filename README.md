@@ -9,5 +9,6 @@
 > a shell script or a dedicated tool). Apart from explaining how to manage your dotfiles this article also contains a
 > list
 > of dotfile repositories from Arch Linux users.
+> 
 > \- https://wiki.archlinux.org/title/Dotfiles
 
