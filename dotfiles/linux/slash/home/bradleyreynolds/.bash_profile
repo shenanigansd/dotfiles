@@ -5,8 +5,7 @@
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
 export EDITOR=vim
-export GPG_TTY=$(tty)
 
+export PATH="$HOME/.local/bin:$PATH"
 # Added by Toolbox App
 export PATH="$PATH:/home/bradleyreynolds/.local/share/JetBrains/Toolbox/scripts"
-

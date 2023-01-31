@@ -8,5 +8,5 @@
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
-export GPG_TTY=$(tty)
-export PATH="$HOME/.local/bin:$PATH"
+GPG_TTY=$(tty)
+export GPG_TTY
