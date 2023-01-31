@@ -18,6 +18,7 @@ packages=(
   python
   awesome
   sddm
+  dotnet-sdk
 )
 
 fdisk /dev/nvme0n1
@@ -46,3 +47,4 @@ echo "root:your_desired_root_password" | chpasswd
 # TODO: write network config
 systemctl enable --now systemd-networkd systemd-resolved
 systemctl enable sddm
+dotnet tool install --global PowerShell
