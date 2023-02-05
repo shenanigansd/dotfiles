@@ -12,3 +12,5 @@ GPG_TTY=$(tty)
 export GPG_TTY
 
 . "$HOME/.cargo/env"
+
+source /usr/share/nvm/init-nvm.sh
