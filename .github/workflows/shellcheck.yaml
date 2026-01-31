@@ -17,7 +17,4 @@ jobs:
         uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
 
       - name: Run ShellCheck
-        run: |
-          docker run --rm -v "$PWD:/mnt" koalaman/shellcheck:stable \
-          sh -c 'find /mnt -name "*.sh" -print0 | xargs -0 shellcheck --shell=bash -e SC1090 -e SC1091'
-
+        run: docker run --rm -v "$PWD:/mnt" koalaman/shellcheck:stable --shell=bash -e SC1090 -e SC1091
